@@ -1,1 +1,68 @@
+body {
+  margin: 0;
+}
 
+/* Navigation css */
+
+nav {
+  display: flex;
+  align-items: center;
+  padding: 0 100px;
+}
+
+/* logo */
+
+.menu_logo {
+  width: 75px;
+  height: 75px;
+}
+
+.logo_tekst {
+  margin-right: auto;
+  text-decoration: none;
+  color: black;
+}
+
+/* menu */
+
+.top_nav a {
+  text-decoration: none;
+  color: black;
+  padding: 0 20px;
+}
+
+#tilmeld_knap {
+  background-color: #EA701B;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+hr {
+  margin: 0 -100px;
+}
+
+/* Footer */
+
+footer {
+  background-color: #1D3D5A;
+  padding: 0 100px;
+}
+.footer_menu_wrapper section p {
+  color: white;
+}
+.footer_menu_wrapper section a {
+  display: block;
+  text-decoration: none;
+  color: white;
+}
+
+.footer_menu_wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer_logo {
+  width: 75px;
+  height: 75px;
+}
