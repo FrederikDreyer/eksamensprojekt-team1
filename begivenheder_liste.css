@@ -48,6 +48,7 @@ figure:hover {
 
 .begivenhed1_text {
   margin: 20px;
+  margin-bottom: 0;
   width: 70%
 }
 
@@ -58,8 +59,4 @@ figure:hover {
 .se_mere {
   float: right;
   display: inline-block;
-}
-
-.bold_text {
-  font-weight: bold;
 }

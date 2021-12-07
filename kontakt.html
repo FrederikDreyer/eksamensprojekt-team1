@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <title>Begivenheder</title>
     <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="kontakt.css">
   </head>
 
   <body>
@@ -12,17 +13,21 @@
 
       <!-- logo -->
 
-      <a href="#" class="menu_logo">
+      <div class="logo_wrapper">
+
+      <a href="index.html" class="menu_logo">
         <img src="billeder/logo_oh.png" alt="" class="menu_logo">
       </a>
 
-      <a href="#" class="logo_tekst">ODENSE <br> HØJSKOLEFORENING</a>
+      <a href="index.html" class="logo_tekst">ODENSE <br> HØJSKOLEFORENING</a>
+
+      </div>
 
       <div class="top_nav">
 
-        <a href="#">BEGIVENHEDER</a>
+        <a href="begivenheder_liste.html">BEGIVENHEDER</a>
         <a href="#">OM OS</a>
-        <a href="#">KONTAKT</a>
+        <a href="kontakt.html" id="aktiv_side">KONTAKT</a>
         <a href="#" id="tilmeld_knap">TILMELD</a>
 
       </div>
@@ -31,14 +36,81 @@
 
 
     <main>
-      <section class="Kontakt">
+
+      <section>
+
+        <h1 id="kontakt">Kontakt</h1>
+
+        <div class="kontakt">
+
+          <div class="">
+
+            <p class="bold_text">Adresse</p>
+            <p>
+              Jens Rahbek Nørgaard
+              <br>
+              Reventlowsvej 45
+              <br>
+              5000 Odense C
+            </p>
+
+            <p class="bold_text">Telefon & Mail</p>
+              <p>
+                Erna Overgaard (kasserer)
+                <br>
+                kasserer@oh-odense.dk
+                <br>
+                61605407
+              </p>
+
+              <p>
+                Erna Overgaard (kasserer)
+                <br>
+                kasserer@oh-odense.dk
+                <br>
+                61605407
+              </p>
+
+            </div>
+
+
+          <div class="kontakt_kort">
+
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2266.0433122354734!2d10.400723515598088!3d55.39215002721717!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x464d200fee9dbf5f%3A0xbed1d4d2aaf93430!2sReventlowsvej%2045%2C%205000%20Odense!5e0!3m2!1sda!2sdk!4v1638905611996!5m2!1sda!2sdk" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+          </div>
+
+        </div>
 
       </section>
 
       <section class="kontaktform">
 
-      </section>
+        <h1>Kontaktform</h1>
 
+        <p>
+          Vil du vide mere om Odense Højskoleforening, eller har du spørgsmål til os, er du velkommen til at kontakte os telefonisk eller sende os en mail. Du kan også benytte dig af vores kontaktformular nedenfor.
+          <br>
+          <br>
+          Vi glæder os til at høre fra dig og bestræber os på at svare hurtigst muligt.
+        </p>
+
+          <form class="" action="index.html" method="post">
+
+            <p class="bold_text">Navn*</p>
+            <input type="text" name="navn" value="" placeholder="Dit fornavn..">
+            <p class="bold_text">Email*</p>
+            <input type="email" name="email" value="" placeholder="Din email..">
+            <p class="bold_text">Besked*</p>
+            <textarea name="besked" rows="8" cols="80" placeholder="Din email.."></textarea>
+
+          </form>
+
+          <button type="button" name="button"onclick="window.location.href='kontakt_bekraftelse.html'">SEND</button>
+
+        </div>
+
+      </section>
 
 
     </main>
