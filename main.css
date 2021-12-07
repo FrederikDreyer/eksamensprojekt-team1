@@ -16,6 +16,11 @@ button {
 main {
   margin-top: 95px;
 }
+
+h1 {
+  font-size: 60px;
+}
+
 /* Navigation css */
 
 nav {
@@ -61,9 +66,6 @@ nav {
   color: black;
   padding: 0 20px;
 }
-.begivenheder {
-
-}
 
 #tilmeld_knap {
   background-color: #EA701B;
@@ -72,6 +74,9 @@ nav {
   padding-bottom: 10px;
 }
 
+#aktiv_side {
+  text-decoration: 3px underline #EA701B;
+}
 
 /* Footer */
 
@@ -96,7 +101,7 @@ footer {
 }
 
 .footer_logo {
-  width: 75px;
+  width: auto;
   height: 75px;
 }
 
