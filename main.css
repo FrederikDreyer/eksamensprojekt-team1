@@ -3,6 +3,16 @@ body {
   font-family: arial;
 }
 
+button {
+  border: none;
+  background-color: #EA701B;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  margin-left: 20px;
+  margin-top: 50px;
+}
+
 main {
   margin-top: 95px;
 }
