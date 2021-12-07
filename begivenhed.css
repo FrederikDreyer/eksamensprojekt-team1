@@ -1,0 +1,43 @@
+.overskrift {
+  text-align: center;
+}
+
+.overskrift h1 {
+padding: 20px 0;
+}
+
+ .billede {
+  width: 60%;
+  height: auto;
+  background-image: url(billeder/humor.jpg);
+  background-position: center;
+  background-size: cover;
+
+}
+
+.begivenhed_info {
+  display: flex;
+  padding: 0 100px;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.info_tekst {
+  margin-right: 200px;
+}
+
+.begivenhed_beskrivelse {
+  background-color: #DFEAE9;
+  padding: 50px 100px;
+}
+
+.begivenhed_beskrivelse h1 {
+  padding-top: 20px;
+  margin: 0;
+}
+
+.begivenhed_beskrivelse p {
+  padding-bottom: 20px;
+  margin: 0;
+  width: 60%;
+}
