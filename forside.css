@@ -1,4 +1,6 @@
-main {
+/* billeder til forside */
+
+.foredrag {
   padding: 0 100px;
 }
 
@@ -9,5 +11,81 @@ main {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  margin: 20px 0;
+}
+
+.foredrag_wrapper {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.foredrag2 {
+  background-image: url(billeder/kajak.jpg);
+  height: 300px;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   margin: 0;
+  margin-right: 20px;
+}
+
+.foredrag3 {
+  background-image: url(billeder/vejr.jpg);
+  height: 300px;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+}
+
+.foredrag4 {
+  background-image: url(billeder/pot.jpg);
+  height: 300px;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+}
+
+.foredrag5 {
+  background-image: url(billeder/humor.jpg);
+  height: 300px;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0 20px;
+}
+
+.foredrag6 {
+  background-image: url(billeder/klima.jpg);
+  height: 300px;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+}
+
+/* text til billeder */
+
+h2 {
+  margin: 0;
+  padding-top: 205px;
+  padding-left: 20px;
+  font-size: 60px;
+  color: white;
+  border-color: black;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.foredrag_tekst {
+  margin: 0;
+  padding-left: 23px;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  font-size: 20px;
 }
