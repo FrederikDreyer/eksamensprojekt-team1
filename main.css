@@ -47,7 +47,7 @@ hr {
 
 footer {
   background-color: #1D3D5A;
-  padding: 0 100px;
+  padding: 20px 100px;
 }
 .footer_menu_wrapper section p {
   color: white;
@@ -70,10 +70,21 @@ footer {
   height: 75px;
 }
 
+.footer_logo_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.footer_logo_wrapper a {
+  color: white;
+  text-decoration: none;
+}
+
 .footer_menu2 {
   width: 400px;
 }
 
 #om_os_footer {
 font-weight: normal;
-}

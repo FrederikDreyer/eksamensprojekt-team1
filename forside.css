@@ -1,0 +1,13 @@
+main {
+  padding: 0 100px;
+}
+
+.foredrag1 {
+  background-image: url(billeder/foredrag.jpg);
+  height: 300px;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+}
