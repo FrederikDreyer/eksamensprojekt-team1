@@ -51,11 +51,13 @@ footer {
 }
 .footer_menu_wrapper section p {
   color: white;
+  font-weight: bold;
 }
 .footer_menu_wrapper section a {
   display: block;
   text-decoration: none;
   color: white;
+  padding: 4px 0;
 }
 
 .footer_menu_wrapper {
@@ -66,4 +68,12 @@ footer {
 .footer_logo {
   width: 75px;
   height: 75px;
+}
+
+.footer_menu2 {
+  width: 400px;
+}
+
+#om_os_footer {
+font-weight: normal;
 }
