@@ -12,33 +12,57 @@ button {
   margin-left: 20px;
   margin-top: 50px;
 }
+
+main {
+  margin-top: 95px;
+}
 /* Navigation css */
 
 nav {
   display: flex;
   align-items: center;
-  padding: 0 100px;
+  overflow: hidden;
+  position: fixed;
+  width: 100%;
+  overflow: hidden;
+  top: 0;
+  background-color: white;
+  z-index: 1;
+  border-bottom: 1px solid grey;
 }
 
 /* logo */
 
+.logo_wrapper {
+  display: flex;
+  align-items: center;
+  padding-left: 100px;
+}
+
 .menu_logo {
-  width: 75px;
+  width: auto;
   height: 75px;
 }
 
 .logo_tekst {
-  margin-right: auto;
   text-decoration: none;
   color: black;
 }
 
 /* menu */
 
+.top_nav {
+  margin-left: auto;
+  padding-right: 100px;
+}
+
 .top_nav a {
   text-decoration: none;
   color: black;
   padding: 0 20px;
+}
+.begivenheder {
+
 }
 
 #tilmeld_knap {
@@ -46,10 +70,6 @@ nav {
   color: white;
   padding-top: 10px;
   padding-bottom: 10px;
-}
-
-hr {
-  margin: 0 -100px;
 }
 
 
