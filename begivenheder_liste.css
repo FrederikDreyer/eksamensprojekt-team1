@@ -1,0 +1,65 @@
+main {
+  padding: 0 100px;
+}
+
+.begivenhed1_img, .begivenhed2_img, .begivenhed3_img, .begivenhed4_img, .begivenhed5_img, .begivenhed6_img {
+  width: 30%;
+  height: 300px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.begivenhed1_img {
+  background-image: url(billeder/foredrag.jpg);
+}
+
+.begivenhed2_img {
+  background-image: url(billeder/kajak.jpg);
+}
+
+.begivenhed3_img {
+  background-image: url(billeder/vejr.jpg);
+}
+
+.begivenhed4_img {
+  background-image: url(billeder/pot.jpg);
+}
+
+.begivenhed5_img {
+  background-image: url(billeder/humor.jpg);
+}
+
+.begivenhed6_img {
+  background-image: url(billeder/klima.jpg);
+}
+figure {
+  margin-left: 0;
+  margin-right: 0;
+  border: 1px solid grey;
+  display: flex;
+  transition: transform .2s;
+}
+
+figure:hover {
+  transform: scale(0.9);
+  cursor: pointer;
+}
+
+.begivenhed1_text {
+  margin: 20px;
+  width: 70%
+}
+
+.begivenhed1_text p {
+  margin: 5px 0;
+}
+
+.se_mere {
+  float: right;
+  display: inline-block;
+}
+
+.bold_text {
+  font-weight: bold;
+}
