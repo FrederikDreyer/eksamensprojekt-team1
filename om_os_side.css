@@ -1,0 +1,81 @@
+.historie {
+  padding: 5px 100px 70px 100px;
+}
+
+.vmv {
+  background-color: #DFEAE9;
+  padding: 35px 100px;
+}
+
+.vision {
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.mission {
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-top: 30px;
+}
+
+.values {
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-top: 30px;
+}
+
+.vmv p {
+  width: 90%;
+}
+
+.circle {
+  height: 200px;
+  width: 200px;
+  background-color: #bbb;
+  border-radius: 50%;
+  margin-right: 100px;
+}
+
+.wrapper h2 {
+  margin-top: 0;
+}
+
+.bestyrelsen {
+  padding: 0 100px;
+}
+
+
+.bestyrelse_billeder {
+  display: flex;
+  justify-content: space-between;
+}
+
+.circle_bestyrelse {
+  height: 250px;
+  width: 250px;
+  background-color: #bbb;
+  border-radius: 50%;
+  margin-right: 30px;
+}
+
+
+.bestyrelsen_tekst {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bestyrelsen_tekst p {
+  margin: 20px 30px;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+}
+
+button{
+  margin-left: 0;
+}
