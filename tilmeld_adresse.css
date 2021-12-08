@@ -1,0 +1,15 @@
+.cirkle1 {
+  background-color: #00AF28;
+  border: 2px solid #00AF28;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+}
+
+.cirkle2, .cirkle3 {
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+}

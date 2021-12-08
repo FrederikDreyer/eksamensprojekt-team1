@@ -4,7 +4,8 @@
     <meta charset="utf-8">
     <title>Begivenheder</title>
     <link rel="stylesheet" href="main.css">
-    <link rel="stylesheet" href="kontakt.css">
+    <link rel="stylesheet" href="kontakt_bekraftelse.css">
+    <script src="https://kit.fontawesome.com/6404ae9aac.js" crossorigin="anonymous"></script>
   </head>
 
   <body>
@@ -27,7 +28,7 @@
 
         <a href="begivenheder_liste.html">BEGIVENHEDER</a>
         <a href="#">OM OS</a>
-        <a href="kontakt.html" id="aktiv_side">KONTAKT</a>
+        <a href="kontakt.html">KONTAKT</a>
         <a href="#" id="tilmeld_knap">TILMELD</a>
 
       </div>
@@ -37,71 +38,20 @@
 
     <main>
 
-      <section class="farve">
+      <div class="wrapper">
 
-        <div class="kontakt_tekst">
+        <i class="far fa-check-circle"></i>
 
-          <h1>Kontakt</h1>
+        <p class="besked_modtaget">
+          Din besked er nu modtaget.
+          <br>
+          Vi bestræber os på at svare hurtigst muligt.
+        </p>
 
-          <p>
-            Vil du vide mere om Odense Højskoleforening, eller har du spørgsmål til os, er du velkommen til at kontakte os telefonisk eller sende os en mail. Du kan også benytte dig af vores kontaktformular nedenfor.
-            <br>
-            <br>
-            Vi glæder os til at høre fra dig og bestræber os på at svare hurtigst muligt.
-          </p>
+      <button class="btn_venstre"type="button" name="button" onclick="window.location.href='index.html'">TILBAGE TIL FORSIDEN</button>
+      <button type="button" name="button" onclick="window.location.href='begivenheder_liste.html'">SE BEGIVENHEDER</button>
 
-        </div>
-
-        <div class="kontakt_wrapper">
-
-          <div class="form_wrapper">
-
-            <form class="" action="index.html" method="post">
-            <p class="bold_text">Navn*</p>
-            <input type="text" name="navn" value="" placeholder="Dit fornavn..">
-            <p class="bold_text">Email*</p>
-            <input type="email" name="email" value="" placeholder="Din email..">
-            <p class="bold_text">Besked*</p>
-            <textarea name="besked" rows="8" cols="80" placeholder="Din email.."></textarea>
-            </form>
-
-            <button type="button" name="button"onclick="window.location.href='kontakt_bekraftelse.html'">SEND</button>
-
-          </div>
-
-            <div class="kontakt_tekst">
-
-              <p class="bold_text">Post adresse</p>
-              <p>
-                Jens Rahbek Nørgaard
-                <br>
-                Reventlowsvej 45
-                <br>
-                5000 Odense C
-              </p>
-
-              <p class="bold_text">Telefon & Mail</p>
-                <p>
-                  Erna Overgaard (kasserer)
-                  <br>
-                  kasserer@oh-odense.dk
-                  <br>
-                  61605407
-                </p>
-
-                <p>
-                  Erna Overgaard (kasserer)
-                  <br>
-                  kasserer@oh-odense.dk
-                  <br>
-                  61605407
-                </p>
-
-              </div>
-
-        </div>
-
-      </section>
+      </div>
 
 
     </main>
