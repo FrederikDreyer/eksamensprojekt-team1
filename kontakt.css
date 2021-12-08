@@ -1,35 +1,32 @@
-
-#kontakt {
-  padding: 0 100px;
+body {
+  background-color: #DFEAE9
 }
 
-.kontakt {
+.kontakt_wrapper {
+  display: flex;
+  margin: 0 100px;
+}
+
+.form_wrapper {
+  width: 60%;
+}
+
+.form_wrapper p {
+  margin-bottom: 5px;
+}
+
+.kontakt_tekst {
+  width: 40%;
+  margin-left: 100px;
+  margin-top: 34px;
+}
+
+.input_flex {
   display: flex;
   justify-content: space-between;
-  padding: 0 100px;
-}
-
-.kontakt_kort {
-  width: 70%;
-  height: 300px;
-}
-
-.kontaktform {
-  background-color: #DFEAE9;
-  padding: 0 100px;
-  padding-bottom: 50px;
-}
-
-.kontaktform h1 {
-  padding-top: 50px;
-}
-
-.kontaktform p {
-  width: 600px;
 }
 
 input {
-  display: block;
   width: 100%;
   padding: 12px 20px;
   border-radius: 4px;
@@ -43,8 +40,10 @@ textarea {
   padding: 12px 20px;
   font-size: 16px;
   font-family: arial;
+  border-radius: 4px;
 }
 
 button {
   margin-left: 0;
+  margin-bottom: 50px;
 }
