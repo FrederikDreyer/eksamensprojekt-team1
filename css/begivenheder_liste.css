@@ -11,27 +11,27 @@ main {
 }
 
 .begivenhed1_img {
-  background-image: url(billeder/foredrag.jpg);
+  background-image: url(../billeder/foredrag.jpg);
 }
 
 .begivenhed2_img {
-  background-image: url(billeder/kajak.jpg);
+  background-image: url(../billeder/kajak.jpg);
 }
 
 .begivenhed3_img {
-  background-image: url(billeder/vejr.jpg);
+  background-image: url(../billeder/vejr.jpg);
 }
 
 .begivenhed4_img {
-  background-image: url(billeder/pot.jpg);
+  background-image: url(../billeder/pot.jpg);
 }
 
 .begivenhed5_img {
-  background-image: url(billeder/humor.jpg);
+  background-image: url(../billeder/humor.jpg);
 }
 
 .begivenhed6_img {
-  background-image: url(billeder/klima.jpg);
+  background-image: url(../billeder/klima.jpg);
 }
 figure {
   margin-left: 0;

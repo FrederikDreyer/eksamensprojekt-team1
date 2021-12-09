@@ -9,7 +9,7 @@ padding: 20px 0;
  .billede {
   width: 60%;
   height: auto;
-  background-image: url(billeder/humor.jpg);
+  background-image: url(../billeder/humor.jpg);
   background-position: center;
   background-size: cover;
 

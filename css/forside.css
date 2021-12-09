@@ -5,7 +5,7 @@
 }
 
 .foredrag1 {
-  background-image: url(billeder/foredrag.jpg);
+  background-image: url(../billeder/foredrag.jpg);
   height: 300px;
   width: 100%;
   background-position: center;
@@ -21,7 +21,7 @@
 }
 
 .foredrag2 {
-  background-image: url(billeder/kajak.jpg);
+  background-image: url(../billeder/kajak.jpg);
   height: 300px;
   width: 100%;
   background-position: center;
@@ -33,7 +33,7 @@
 }
 
 .foredrag3 {
-  background-image: url(billeder/vejr.jpg);
+  background-image: url(../billeder/vejr.jpg);
   height: 300px;
   width: 100%;
   background-position: center;
@@ -44,7 +44,7 @@
 }
 
 .foredrag4 {
-  background-image: url(billeder/pot.jpg);
+  background-image: url(../billeder/pot.jpg);
   height: 300px;
   width: 100%;
   background-position: center;
@@ -55,7 +55,7 @@
 }
 
 .foredrag5 {
-  background-image: url(billeder/humor.jpg);
+  background-image: url(../billeder/humor.jpg);
   height: 300px;
   width: 100%;
   background-position: center;
@@ -66,7 +66,7 @@
 }
 
 .foredrag6 {
-  background-image: url(billeder/klima.jpg);
+  background-image: url(../billeder/klima.jpg);
   height: 300px;
   width: 100%;
   background-position: center;
