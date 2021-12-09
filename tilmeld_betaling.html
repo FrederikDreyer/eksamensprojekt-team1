@@ -4,6 +4,8 @@
     <meta charset="utf-8">
     <title>Begivenheder</title>
     <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="betaling.css">
+    <script src="https://kit.fontawesome.com/6404ae9aac.js" crossorigin="anonymous"></script>
   </head>
 
   <body>
@@ -12,17 +14,21 @@
 
       <!-- logo -->
 
-      <a href="#" class="menu_logo">
+      <div class="logo_wrapper">
+
+      <a href="index.html" class="menu_logo">
         <img src="billeder/logo_oh.png" alt="" class="menu_logo">
       </a>
 
-      <a href="#" class="logo_tekst">ODENSE <br> HØJSKOLEFORENING</a>
+      <a href="index.html" class="logo_tekst">ODENSE <br> HØJSKOLEFORENING</a>
+
+      </div>
 
       <div class="top_nav">
 
-        <a href="#">BEGIVENHEDER</a>
+        <a href="begivenheder_liste.html">BEGIVENHEDER</a>
         <a href="#">OM OS</a>
-        <a href="#">KONTAKT</a>
+        <a href="kontakt.html">KONTAKT</a>
         <a href="#" id="tilmeld_knap">TILMELD</a>
 
       </div>
@@ -31,7 +37,96 @@
 
 
     <main>
-      <section class="betaling_form">
+
+      <section class="fremskridts_bar">
+
+        <i class="fas fa-arrow-left" onclick="window.location.href='tilmeld_betaling.html'"></i>
+
+        <div class="fremskidt">
+          <figure class="cirkle1"></figure>
+          <p>Adresse</p>
+        </div>
+
+        <div class="fremskidt" onclick="window.location.href='tilmeld_betaling.html'">
+          <figure class="cirkle2"></figure>
+          <p>Betaling</p>
+        </div>
+
+        <div class="fremskidt" onclick="window.location.href='tilmeld_bekraftelse.html'">
+          <figure class="cirkle3"></figure>
+          <p>Bekræft</p>
+        </div>
+
+        <i class="fas fa-arrow-right" onclick="window.location.href='tilmeld_betaling.html'"></i>
+
+      </section>
+
+      <section class="betaling">
+        <p>
+          But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and
+        </p>
+
+        <p class="bold_text">Dine oplysninger</p>
+
+        <hr>
+
+        <div class="oplysninger_wrapper">
+
+          <article class="oplysninger">
+
+            <p class="bold_text">Bente Sørensen</p>
+            <p>Skagensvænget 24, 5000, Odense V</p>
+            <p>bentesoerensen@hotmail.dk</p>
+            <p>12345678</p>
+
+          </article>
+
+          <article class="produkt">
+
+            <p class="bold_text">Medlemsskab</p>
+            <p>Årskontingent………………….200 dkr</p>
+
+          </article>
+
+        </div>
+
+        <p class="bold_text">Betaling</p>
+        <hr>
+
+        <div class="wrapper">
+
+          <form class="input_wrapper" action="index.html" method="post">
+
+            <div class="">
+              <p class="bold_text">Kortnummer</p>
+              <input type="text" name="kortnummer" value="">
+            </div>
+
+            <div class="kort_wrapper">
+
+              <div class="mm">
+                <p class="bold_text">MM/ÅÅ</p>
+                <input type="text" name="mm/åå" value="">
+              </div>
+
+              <div class="cvc">
+                <p class="bold_text">CVC</p>
+                <input type="text" name="cvc" value="">
+              </div>
+
+            </div>
+
+          </form>
+
+        </div>
+
+        <p class="bold_text" id="pris">200 DKR inkl. moms</p>
+
+        <div class="lort">
+          <button type="button" name="button">BETAL</button>
+        </div>
+
+
 
       </section>
 

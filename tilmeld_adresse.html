@@ -14,17 +14,21 @@
 
       <!-- logo -->
 
-      <a href="#" class="menu_logo">
+      <div class="logo_wrapper">
+
+      <a href="index.html" class="menu_logo">
         <img src="billeder/logo_oh.png" alt="" class="menu_logo">
       </a>
 
-      <a href="#" class="logo_tekst">ODENSE <br> HØJSKOLEFORENING</a>
+      <a href="index.html" class="logo_tekst">ODENSE <br> HØJSKOLEFORENING</a>
+
+      </div>
 
       <div class="top_nav">
 
-        <a href="#">BEGIVENHEDER</a>
+        <a href="begivenheder_liste.html">BEGIVENHEDER</a>
         <a href="#">OM OS</a>
-        <a href="#">KONTAKT</a>
+        <a href="kontakt.html">KONTAKT</a>
         <a href="#" id="tilmeld_knap">TILMELD</a>
 
       </div>
@@ -36,23 +40,92 @@
 
       <section class="fremskridts_bar">
 
-        <div class="cirkle1">
+        <i class="fas fa-arrow-right" id="fyld"></i>
 
+        <div class="fremskidt">
+          <figure class="cirkle1"></figure>
+          <p>Adresse</p>
         </div>
 
-        <div class="cirkle2">
-
+        <div class="fremskidt" onclick="window.location.href='tilmeld_betaling.html'">
+          <figure class="cirkle2"></figure>
+          <p>Betaling</p>
         </div>
 
-        <div class="cirkle3">
-
+        <div class="fremskidt" onclick="window.location.href='tilmeld_bekraftelse.html'">
+          <figure class="cirkle3"></figure>
+          <p>Bekræft</p>
         </div>
 
-        <i class="fas fa-arrow-right"></i>
+        <i class="fas fa-arrow-right" onclick="window.location.href='tilmeld_betaling.html'"></i>
 
       </section>
 
       <section class="adresse_form">
+
+        <p>
+          But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is.
+        </p>
+
+        <p>1 års kontingent - 200 dkr</p>
+
+        <br>
+
+        <p class="bold_text">Betalingsmuligheder</p>
+
+        <div class="betaling">
+          <input type="checkbox" name="" value="" class="rund_checkbox">
+          <p class="bold_text">Betalingskort (Gratis) <i class="fab fa-cc-mastercard"></i> <i class="fab fa-cc-visa"></i></p>
+        </div>
+
+        <div class="betaling">
+          <input type="checkbox" name="" value="" class="rund_checkbox">
+          <p class="bold_text">Mobilepay (Gratis)</p>
+        </div>
+
+        <div class="info_wrapper">
+
+          <p class="bold_text">Fornavn*</p>
+          <p class="bold_text">Efternavn*</p>
+
+          <input type="text" name="fornavn" value="">
+
+          <input type="text" name="efternavn" value="">
+
+          <p class="bold_text">Email*</p>
+          <p class="bold_text">Telefon nr.</p>
+
+          <input type="email" name="email" value="">
+
+          <input type="tel" name="telefon" value="">
+
+          <p class="bold_text">Adresse*</p>
+          <p class="bold_text">Etage</p>
+
+          <input type="text" name="adresse" value="">
+
+          <input type="text" name="etage" value="">
+
+          <p class="bold_text">Postnummer*</p>
+          <p class="bold_text">By*</p>
+
+          <input type="text" name="postnr" value="">
+
+          <input type="text" name="by" value="">
+
+        </div>
+
+        <div class="betaling">
+          <input type="checkbox" name="" value="" class="rund_checkbox">
+          <p>Ja, tilmeld mig til nyhedsbrevet</p>
+        </div>
+
+        <div class="betaling">
+          <input type="checkbox" name="" value="" class="rund_checkbox">
+          <p>Ja, jeg godkender dataloven</p>
+        </div>
+
+        <button type="button" name="button" onclick="window.location.href='tilmeld_betaling.html'">GÅ TIL BETALING</button>
 
       </section>
 
