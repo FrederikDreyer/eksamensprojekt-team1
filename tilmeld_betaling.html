@@ -66,42 +66,66 @@
           But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and
         </p>
 
-        <p>Dine oplysninger</p>
+        <p class="bold_text">Dine oplysninger</p>
 
         <hr>
 
-        <article class="">
+        <div class="oplysninger_wrapper">
 
-          <p>Bente Sørensen</p>
-          <p>Skagensvænget 24, 5000, Odense V</p>
-          <p>bentesoerensen@hotmail.dk</p>
-          <p>12345678</p>
+          <article class="oplysninger">
 
-        </article>
+            <p class="bold_text">Bente Sørensen</p>
+            <p>Skagensvænget 24, 5000, Odense V</p>
+            <p>bentesoerensen@hotmail.dk</p>
+            <p>12345678</p>
 
-        <article class="">
+          </article>
 
-          <p>Medlemsskab</p>Medlemsskab
-          <p>Årskontingent………………….200 dkr</p>
+          <article class="produkt">
 
-        </article>
+            <p class="bold_text">Medlemsskab</p>
+            <p>Årskontingent………………….200 dkr</p>
 
-        <p>Betaling</p>
+          </article>
+
+        </div>
+
+        <p class="bold_text">Betaling</p>
         <hr>
 
-        <form class="" action="index.html" method="post">
+        <div class="wrapper">
 
-          <p>Kortnummer</p>
-          <input type="text" name="kortnummer" value="">
-          <p>MM/ÅÅ</p>
-          <p>CVC</p>
-          <input type="text" name="mm/åå" value="">
-          <input type="text" name="cvc" value="">
+          <form class="input_wrapper" action="index.html" method="post">
 
-        </form>
+            <div class="">
+              <p class="bold_text">Kortnummer</p>
+              <input type="text" name="kortnummer" value="">
+            </div>
 
-        <p>200 DKR inkl. moms</p>
-        <button type="button" name="button">BETAL</button>
+            <div class="kort_wrapper">
+
+              <div class="mm">
+                <p class="bold_text">MM/ÅÅ</p>
+                <input type="text" name="mm/åå" value="">
+              </div>
+
+              <div class="cvc">
+                <p class="bold_text">CVC</p>
+                <input type="text" name="cvc" value="">
+              </div>
+
+            </div>
+
+          </form>
+
+        </div>
+
+        <p class="bold_text" id="pris">200 DKR inkl. moms</p>
+
+        <div class="lort">
+          <button type="button" name="button">BETAL</button>
+        </div>
+
 
 
       </section>
