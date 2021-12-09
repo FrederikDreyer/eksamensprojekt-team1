@@ -21,6 +21,10 @@ body {
   margin-top: 34px;
 }
 
+.kontakt_tekst h1{
+  margin: 0;
+}
+
 .input_flex {
   display: flex;
   justify-content: space-between;

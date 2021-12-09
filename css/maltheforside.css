@@ -1,10 +1,12 @@
 .forside_medlem {
   background-color: #DFEAE9;
-  padding-bottom: 50px;
-
 }
 
 .forside_medlem p {
+  margin: 16px 0;
+}
+
+h1 {
   margin: 0;
 }
 

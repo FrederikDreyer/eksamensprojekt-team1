@@ -1,5 +1,13 @@
 main {
-  padding: 0 100px;
+  padding: 0 100px 50px 100px;
+}
+
+h1 {
+  margin: 0;
+}
+
+button {
+  margin: 16px 0;
 }
 
 .begivenhed1_img, .begivenhed2_img, .begivenhed3_img, .begivenhed4_img, .begivenhed5_img {

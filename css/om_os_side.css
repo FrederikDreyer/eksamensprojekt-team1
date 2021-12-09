@@ -3,7 +3,7 @@ main h1 {
 }
 
 .historie {
-  padding: 5px 100px 70px 100px;
+  padding: 0px 100px 70px 100px;
   display: flex;
   justify-content: space-between;
 }
@@ -60,6 +60,7 @@ margin-top: 30px;
 
 .wrapper h2 {
   margin-top: 0;
+  margin-bottom: 16px;
 }
 
 .bestyrelsen {
@@ -120,12 +121,10 @@ margin-top: 30px;
 .button {
   display: flex;
   justify-content: center;
-  padding-bottom: 100px;
-  padding-top: 50px;
 }
 
 button{
-  margin-left: 0;
+  margin: 0;
 }
 
 .bestyrelse_figure {
