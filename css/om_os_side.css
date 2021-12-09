@@ -1,9 +1,24 @@
-.historie {
-  padding: 5px 100px 70px 100px;
+main h1 {
+  margin-top: 0;
 }
 
-.historie h1 {
-  margin-bottom: 20px;
+.historie {
+  padding: 5px 100px 70px 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.historie p {
+  width: 60%
+}
+
+img {
+  width: 30%;
+}
+
+h1 {
+  padding-left: 100px;
+  margin-bottom: 0;
 }
 
 .vmv {
@@ -32,7 +47,7 @@ margin-top: 30px;
 }
 
 .vmv p {
-  width: 90%;
+  width: 80%;
 }
 
 .circle {
@@ -48,13 +63,14 @@ margin-top: 30px;
 }
 
 .bestyrelsen {
-  padding: 50px 100px;
+  padding: 50px 0px;
 }
 
 
 .bestyrelse_billeder {
   display: flex;
   justify-content: space-between;
+  padding: 50px 100px;
 }
 
 .circle_bestyrelse1 {
@@ -83,7 +99,7 @@ margin-top: 30px;
   background-color: #bbb;
   border-radius: 50%;
   background-image: url(../billeder/Hans_jensen2.jpg);
-  background-position: center;
+  background-position: top;
   background-size: cover;
 }
 
@@ -110,7 +126,6 @@ margin-top: 30px;
 
 button{
   margin-left: 0;
-
 }
 
 .bestyrelse_figure {

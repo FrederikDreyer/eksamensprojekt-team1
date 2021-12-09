@@ -5,7 +5,7 @@
 }
 
 .foredrag1 {
-  background-image: url(../billeder/foredrag.jpg);
+  background-image: url(../billeder/pandemier.jpg);
   height: 300px;
   width: 100%;
   background-position: center;
@@ -66,10 +66,10 @@
 }
 
 .foredrag6 {
-  background-image: url(../billeder/klima.jpg);
+  background-image: url(../billeder/grundtvig.jpg);
   height: 300px;
   width: 100%;
-  background-position: center;
+  
   background-repeat: no-repeat;
   background-size: cover;
   margin: 0;

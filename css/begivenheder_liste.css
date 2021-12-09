@@ -2,7 +2,7 @@ main {
   padding: 0 100px;
 }
 
-.begivenhed1_img, .begivenhed2_img, .begivenhed3_img, .begivenhed4_img, .begivenhed5_img, .begivenhed6_img {
+.begivenhed1_img, .begivenhed2_img, .begivenhed3_img, .begivenhed4_img, .begivenhed5_img {
   width: 30%;
   height: 300px;
   background-position: center;
@@ -11,7 +11,7 @@ main {
 }
 
 .begivenhed1_img {
-  background-image: url(../billeder/foredrag.jpg);
+  background-image: url(../billeder/pandemier.jpg);
 }
 
 .begivenhed2_img {
@@ -31,7 +31,12 @@ main {
 }
 
 .begivenhed6_img {
-  background-image: url(../billeder/klima.jpg);
+  background-image: url(../billeder/grundtvig.jpg);
+  width: 30%;
+  height: 300px;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 figure {
   margin-left: 0;

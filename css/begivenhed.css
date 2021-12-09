@@ -8,8 +8,8 @@ padding: 20px 0;
 
  .billede {
   width: 60%;
-  height: auto;
-  background-image: url(../billeder/humor.jpg);
+  height: 500px;
+  background-image: url(../billeder/pandemier.jpg);
   background-position: center;
   background-size: cover;
 
@@ -23,12 +23,16 @@ padding: 20px 0;
 }
 
 .info_tekst {
-  margin-right: 200px;
+  padding-right: 100px;
+}
+
+button{
+  margin-left: 0;
 }
 
 .begivenhed_beskrivelse {
   background-color: #DFEAE9;
-  padding: 50px 100px;
+  padding: 30px 100px;
 }
 
 .begivenhed_beskrivelse h1 {
