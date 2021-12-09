@@ -210,8 +210,15 @@ font-weight: normal;
     text-align: center;
     margin-top: 36px;
   }
-}
 
+  .logo_wrapper {
+    padding-left: 20px;
+  }
+
+  #burger_menu {
+    padding-right: 20px;
+  }
+}
 
 
 
