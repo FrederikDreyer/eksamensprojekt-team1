@@ -1,5 +1,10 @@
 console.log("det virker");
 
 function mobilNav() {
-  document.getElementById('nav_mobil').style.display = "block";
+  let nav = document.getElementById('nav_mobil');
+  if (nav.style.display === "block") {
+    nav.style.display = "none";
+  } else {
+    nav.style.display = "block";
+  }
 }
