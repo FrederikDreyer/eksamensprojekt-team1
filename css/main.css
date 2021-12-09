@@ -118,8 +118,17 @@ footer {
   text-decoration: none;
 }
 
+.footer_menu1 {
+  width: 100%;
+}
+
 .footer_menu2 {
-  width: 400px;
+  width: 100%;
+}
+
+.footer_menu3 {
+  width: 100%;
+  text-align: right;
 }
 
 #om_os_footer {
@@ -183,6 +192,24 @@ font-weight: normal;
   }
 
 
+}
+
+@media screen and (max-width: 930px) {
+  .footer_menu2 {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .footer_menu_wrapper {
+    display: block;
+    text-align: center;
+  }
+
+  .footer_menu3 {
+    text-align: center;
+    margin-top: 36px;
+  }
 }
 
 
