@@ -28,3 +28,22 @@
   width: 30%;
   margin: auto;
 }
+
+@media screen and (max-width: 922px) {
+  .boks_bekraft {
+    width: 50%;
+  }
+
+}
+
+@media screen and (max-width: 559px) {
+  .boks_bekraft {
+    width: 70%;
+  }
+
+}
+
+.besked_modtaget {
+  margin-left: 20px;
+  margin-right: 20px;
+}

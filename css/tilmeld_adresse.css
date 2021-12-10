@@ -107,3 +107,43 @@ input[type="text"], input[type="email"], input[type="tel"] {
 button {
   margin-left: 0;
 }
+
+
+.info_wrapper_mobil {
+  display: none;
+}
+
+@media screen and (max-width: 1000px) {
+  .adresse_form p {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 820px) {
+  .adresse_form p {
+    width: 100%;
+  }
+
+  .adresse_form {
+    padding: 20px 50px 50px 50px;
+  }
+
+@media screen and (max-width: 700px) {
+    .adresse_form {
+      padding: 20px 20px 50px 20px;
+    }
+  }
+
+@media screen and (max-width: 600px) {
+  .info_wrapper {
+    display: none;
+  }
+
+  .info_wrapper_mobil {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr auto 1fr auto 1fr auto 1fr;
+    gap: 0px 20px;
+    grid-auto-flow: row;
+  }
+}
