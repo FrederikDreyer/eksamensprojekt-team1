@@ -100,3 +100,9 @@ button{
     padding: 30px 20px;
   }
 }
+
+@media screen and (max-width: 450px) {
+  .info_tekst {
+    display: block;
+  }
+}

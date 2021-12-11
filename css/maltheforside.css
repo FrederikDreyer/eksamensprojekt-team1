@@ -58,3 +58,16 @@ h1 {
     padding: 50px 50px;
   }
 }
+
+@media screen and (max-width: 450px) {
+  .medlem_sektion h1 {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .se_mere {
+    margin-right: 0px;
+
+  }
+}

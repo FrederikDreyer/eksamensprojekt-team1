@@ -108,3 +108,51 @@ input {
 button {
   margin: 0;
 }
+
+@media screen and (max-width: 820px) {
+  .betaling {
+    padding: 4px 50px 50px 50px;
+    background-color: #DFEAE9;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .betaling {
+    padding: 4px 20px 50px 20px;
+    background-color: #DFEAE9;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .oplysninger_wrapper {
+    display: block;
+  }
+
+  .produkt {
+    margin-left: 0px;
+    margin-top: 20px;
+  }
+
+  .oplysninger {
+    margin-right: 0px;
+  }
+}
+
+@media screen and (max-width: 538px) {
+  .kort_wrapper {
+    display: block;
+
+  }
+
+  .wrapper {
+    display: block;
+    margin-left: 0px;
+    margin-right: 40px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .cirkle2, .cirkle3, .cirkle1 {
+    margin: 0 25px;
+  }
+}
