@@ -147,3 +147,9 @@ button {
     grid-auto-flow: row;
   }
 }
+
+@media screen and (max-width: 450px) {
+  .cirkle2, .cirkle3, .cirkle1 {
+    margin: 0 25px;
+  }
+}

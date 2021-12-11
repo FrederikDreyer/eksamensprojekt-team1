@@ -189,3 +189,10 @@ h2 {
     font-size: 50px;
   }
 }
+
+@media screen and (max-width: 450px) {
+  h2 {
+    font-size: 30px;
+    padding-top: 225px;
+  }
+}

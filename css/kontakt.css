@@ -101,3 +101,13 @@ button {
     margin-top: -16px;
   }
 }
+
+@media screen and (max-width: 450px) {
+  .mail_tel {
+    display: block;
+  }
+
+  .kontakt_tekst2 {
+    display: block;
+  }
+}
