@@ -14,6 +14,17 @@ button {
   cursor: pointer;
 }
 
+button:hover {
+  background-color: orange;
+  color: white;
+  border-color: orange;
+}
+
+#tilmeld_knap:hover {
+
+}
+
+
 main {
   margin-top: 105px;
 }
@@ -250,9 +261,6 @@ font-weight: normal;
     margin-left: 0px;
   }
 }
-
-
-
 
 
 
