@@ -6,10 +6,21 @@ main h1 {
   padding: 0px 100px 50px 100px;
   display: flex;
   justify-content: space-between;
+  background-color: #DFEAE9;
+  margin-bottom: 50px;
+  margin-top: 0;
+}
+
+.historie_overskrift {
+  background-color: #DFEAE9;
+  padding-top: 20px;
 }
 
 .lort {
   width: 60%;
+}
+
+.lort p {
 }
 
 img {
@@ -23,16 +34,16 @@ h1 {
 }
 
 
-
-
 .vmv {
   padding: 50px 100px;
-  background-color: #DFEAE9;
+  background-color: #1D3D5A;
+  color: white;
 }
 
 .vm {
   display: flex;
   justify-content: space-between;
+  padding: 0 100px 50px 100px;
 }
 
 .vm img {
@@ -51,8 +62,10 @@ h1 {
 }
 
 .verdier img {
-  width: 30%;
-  height: auto;
+  width: 350px;
+  height: 450px;
+  border-radius: 50%;
+  zoom: 150%;
 }
 
 #mere {
@@ -139,6 +152,7 @@ button{
 
 .fa-chevron-down {
   cursor: pointer;
+  color: black;
 }
 
 .dropDrownClick {
@@ -190,10 +204,13 @@ button{
 
   .vmv {
     padding: 50px 50px;
+    background-color: #1D3D5A;
   }
 
   .vm {
     display: block;
+    background-color: white;
+    padding: 0 100px 50px 100px;
   }
 
   .verdier_tekst {
