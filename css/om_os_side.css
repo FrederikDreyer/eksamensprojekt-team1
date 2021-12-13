@@ -68,7 +68,9 @@ h1 {
   zoom: 150%;
 }
 
-
+#mere {
+  display: none;
+}
 
 .bestyrelsen {
   padding: 50px 0px;
