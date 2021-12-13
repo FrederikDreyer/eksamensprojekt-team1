@@ -1,5 +1,10 @@
+body {
+  background-color: #DFEAE9;
+}
+
 main h1 {
   margin-top: 0;
+
 }
 
 .historie {
@@ -7,13 +12,11 @@ main h1 {
   display: flex;
   justify-content: space-between;
   background-color: #DFEAE9;
-  margin-bottom: 50px;
   margin-top: 0;
 }
 
 .historie_overskrift {
   background-color: #DFEAE9;
-  padding-top: 20px;
 }
 
 .lort {
@@ -42,8 +45,9 @@ h1 {
 
 .vm {
   display: flex;
+  background-color: white;
   justify-content: space-between;
-  padding: 0 100px 50px 100px;
+  padding: 50px 100px 50px 100px;
 }
 
 .vm img {
