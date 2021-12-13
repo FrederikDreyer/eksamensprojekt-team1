@@ -1,0 +1,28 @@
+.farve1, .farve2, .farve3, .farve4 {
+  width: 200px;
+  height: 100px;
+  color: white;
+}
+
+.farve1 {
+  background-color: #1D3D5A;
+}
+
+.farve2 {
+  background-color: #EA701F;
+}
+
+.farve3 {
+  background-color: #DFEAE9;
+  color: black;
+}
+
+.farve4 {
+  background-color: #000000;
+}
+
+.farve1 p, .farve2 p, .farve3 p, .farve4 p {
+  padding-top: 42px;
+  padding-bottom: 42px;
+  padding: 42px 10px;
+}
