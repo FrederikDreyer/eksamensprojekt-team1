@@ -12,12 +12,15 @@ h1 {
 
 .medlem_sektion {
   padding: 50px 400px;
-  text-align: center;
 }
 
 
 .medlem_sektion h1 {
   font-size: 60px;
+}
+
+.knapper {
+  text-align: center;
 }
 
 .se_mere {
