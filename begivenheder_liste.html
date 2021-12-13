@@ -55,12 +55,13 @@
 
       <h1>Begivenheder</h1>
 
-      <button type="button" name="button">Alle</button>
-      <button type="button" name="button">Alle</button>
-      <button type="button" name="button">Alle</button>
-      <button type="button" name="button">Alle</button>
-      <button type="button" name="button">Alle</button>
+      <button type="button" name="button" onclick="alleFilter()">Alle</button>
+      <button type="button" name="button" onclick="findSundhed()">Sundhed</button>
+      <button type="button" name="button" onclick="findSamfund()">Samfund</button>
+      <button type="button" name="button" onclick="findInternationalt()">Internationalt</button>
+      <button type="button" name="button" onclick="findHistorie()">Historie</button>
 
+      <div class="alle samfund sundhed internationalt">
       <figure class="begivenhed" onclick="window.location.href='begivenhed.html'">
 
         <div class="begivenhed1_img">
@@ -81,112 +82,126 @@
         </div>
 
       </figure>
+      </div>
 
-      <figure class="begivenhed" onclick="window.location.href='begivenhed.html'">
+      <div class="alle sundhed">
+        <figure class="begivenhed" onclick="window.location.href='begivenhed.html'">
 
-        <div class="begivenhed2_img">
+          <div class="begivenhed2_img">
 
-        </div>
+          </div>
 
-        <div class="begivenhed1_text">
+          <div class="begivenhed1_text">
 
-          <p class="bold_text">Naturhelbredelse - Simon Høegmark</p>
-          <p>En rejse ind i naturens hemmeligheder og helbredende kræfter. Brug af naturbaseret terapi og rehabilitering i sundhedssektoren er i kraftig vækst i disse år, både internationalt og nationalt.</p>
-          <br>
-          <p class="bold_text">Tid</p>
-          <p>Fredag d. 20/03/2022 kl. 20:00</p>
-          <br>
-          <p class="bold_text">Sted</p>
-          <p>5230 Odense M <button type="button" name="button" class="se_mere">SE MERE</button></p>
-          <button type="button" name="button" class="mobil_btn">SE MERE</button>
+            <p class="bold_text">Naturhelbredelse - Simon Høegmark</p>
+            <p>En rejse ind i naturens hemmeligheder og helbredende kræfter. Brug af naturbaseret terapi og rehabilitering i sundhedssektoren er i kraftig vækst i disse år, både internationalt og nationalt.</p>
+            <br>
+            <p class="bold_text">Tid</p>
+            <p>Fredag d. 20/03/2022 kl. 20:00</p>
+            <br>
+            <p class="bold_text">Sted</p>
+            <p>5230 Odense M <button type="button" name="button" class="se_mere">SE MERE</button></p>
+            <button type="button" name="button" class="mobil_btn">SE MERE</button>
 
-        </div>
+          </div>
 
-      </figure>
+        </figure>
+      </div>
 
-      <figure class="begivenhed" onclick="window.location.href='begivenhed.html'">
+      <div class="alle samfund">
+        <figure class="begivenhed" onclick="window.location.href='begivenhed.html'">
 
-        <div class="begivenhed3_img">
+          <div class="begivenhed3_img">
 
-        </div>
+          </div>
 
-        <div class="begivenhed1_text">
+          <div class="begivenhed1_text">
 
-          <p class="bold_text">Klimaet - Jesper Theilgaard</p>
-          <p>Vi er alle afhængige af klimaet. Dog er det uforanderligt og ændres konstant. I dag sker forandringerne hurtigt, hvilket skaber utryghed. Men hvad er baggrunden egentlig for disse forandringer?</p>
-          <br>
-          <p class="bold_text">Tid</p>
-          <p>Fredag d. 13/04/2022 kl. 20:00</p>
-          <br>
-          <p class="bold_text">Sted</p>
-          <p>5230 Odense M <button type="button" name="button" class="se_mere">SE MERE</button></p>
-          <button type="button" name="button" class="mobil_btn">SE MERE</button>
-        </div>
+            <p class="bold_text">Klimaet - Jesper Theilgaard</p>
+            <p>Vi er alle afhængige af klimaet. Dog er det uforanderligt og ændres konstant. I dag sker forandringerne hurtigt, hvilket skaber utryghed. Men hvad er baggrunden egentlig for disse forandringer?</p>
+            <br>
+            <p class="bold_text">Tid</p>
+            <p>Fredag d. 13/04/2022 kl. 20:00</p>
+            <br>
+            <p class="bold_text">Sted</p>
+            <p>5230 Odense M <button type="button" name="button" class="se_mere">SE MERE</button></p>
+            <button type="button" name="button" class="mobil_btn">SE MERE</button>
+          </div>
 
-      </figure>
+        </figure>
 
-      <figure class="begivenhed" onclick="window.location.href='begivenhed.html'">
+      </div>
 
-        <div class="begivenhed4_img">
+      <div class="alle sundhed">
+        <figure class="begivenhed" onclick="window.location.href='begivenhed.html'">
 
-        </div>
+          <div class="begivenhed4_img">
 
-        <div class="begivenhed1_text">
+          </div>
 
-          <p class="bold_text">Cannabis - Mads Petersen</p>
-          <p>Hvordan gik gartneren fra solmodne tomater til dyrkning af medicinsk cannabis? Og hvad driver egentlig lysten og passionen for at levere medicinsk cannabis af høj kvalitet?</p>
-          <br>
-          <p class="bold_text">Tid</p>
-          <p>Fredag d. 04/05/2022 kl. 20:00</p>
-          <br>
-          <p class="bold_text">Sted</p>
-          <p>5230 Odense M <button type="button" name="button" class="se_mere">SE MERE</button></p>
-          <button type="button" name="button" class="mobil_btn">SE MERE</button>
-        </div>
+          <div class="begivenhed1_text">
 
-      </figure>
+            <p class="bold_text">Cannabis - Mads Petersen</p>
+            <p>Hvordan gik gartneren fra solmodne tomater til dyrkning af medicinsk cannabis? Og hvad driver egentlig lysten og passionen for at levere medicinsk cannabis af høj kvalitet?</p>
+            <br>
+            <p class="bold_text">Tid</p>
+            <p>Fredag d. 04/05/2022 kl. 20:00</p>
+            <br>
+            <p class="bold_text">Sted</p>
+            <p>5230 Odense M <button type="button" name="button" class="se_mere">SE MERE</button></p>
+            <button type="button" name="button" class="mobil_btn">SE MERE</button>
+          </div>
 
-      <figure class="begivenhed" onclick="window.location.href='begivenhed.html'">
+        </figure>
+      </div>
 
-        <div class="begivenhed5_img">
 
-        </div>
+      <div class="alle historie">
+        <figure class="begivenhed" onclick="window.location.href='begivenhed.html'">
 
-        <div class="begivenhed1_text">
+          <div class="begivenhed5_img">
 
-          <p class="bold_text">Humor - Jacob Wendt</p>
-          <p>Tag med på en fortryllende rejse gennem 100 år med dansk humor med blandt andet historiske satireprogrammer, sjældne filmklip og velkendte eksempler krydret med perspektivering og røverhistorier.</p>
-          <br>
-          <p class="bold_text">Tid</p>
-          <p>Fredag d. 07/05/2022 kl. 20:00</p>
-          <br>
-          <p class="bold_text">Sted</p>
-          <p>5230 Odense M <button type="button" name="button" class="se_mere">SE MERE</button></p>
-          <button type="button" name="button" class="mobil_btn">SE MERE</button>
-        </div>
+          </div>
 
-      </figure>
+          <div class="begivenhed1_text">
 
-      <figure class="begivenhed" onclick="window.location.href='begivenhed.html'">
+            <p class="bold_text">Humor - Jacob Wendt</p>
+            <p>Tag med på en fortryllende rejse gennem 100 år med dansk humor med blandt andet historiske satireprogrammer, sjældne filmklip og velkendte eksempler krydret med perspektivering og røverhistorier.</p>
+            <br>
+            <p class="bold_text">Tid</p>
+            <p>Fredag d. 07/05/2022 kl. 20:00</p>
+            <br>
+            <p class="bold_text">Sted</p>
+            <p>5230 Odense M <button type="button" name="button" class="se_mere">SE MERE</button></p>
+            <button type="button" name="button" class="mobil_btn">SE MERE</button>
+          </div>
 
-        <div class="begivenhed6_img">
+        </figure>
+      </div>
 
-        </div>
+      <div class="alle historie samfund">
+        <figure class="begivenhed" onclick="window.location.href='begivenhed.html'">
 
-        <div class="begivenhed1_text">
+          <div class="begivenhed6_img">
 
-          <p class="bold_text">Grundtvig og livsglæden - Aage Augustinus</p>
-          <p>Livet er i egentligste forstand uoverskueligt. Alligevel må vi se at komme til rette med det, så det bliver til glæde for én selv og andre. – At det skal være til glæde står for Grundtvig fast.</p>
-          <br>
-          <p class="bold_text">Tid</p>
-          <p>Fredag d. 07/06/2022 kl. 20:00</p>
-          <br>
-          <p class="bold_text">Sted</p>
-          <p>5230 Odense M <button type="button" name="button" class="se_mere">SE MERE</button></p>
-          <button type="button" name="button" class="mobil_btn">SE MERE</button>
-        </div>
+          </div>
 
-      </figure>
+          <div class="begivenhed1_text">
+
+            <p class="bold_text">Grundtvig og livsglæden - Aage Augustinus</p>
+            <p>Livet er i egentligste forstand uoverskueligt. Alligevel må vi se at komme til rette med det, så det bliver til glæde for én selv og andre. – At det skal være til glæde står for Grundtvig fast.</p>
+            <br>
+            <p class="bold_text">Tid</p>
+            <p>Fredag d. 07/06/2022 kl. 20:00</p>
+            <br>
+            <p class="bold_text">Sted</p>
+            <p>5230 Odense M <button type="button" name="button" class="se_mere">SE MERE</button></p>
+            <button type="button" name="button" class="mobil_btn">SE MERE</button>
+          </div>
+
+        </figure>
+      </div>
+
 
 
     </main>
