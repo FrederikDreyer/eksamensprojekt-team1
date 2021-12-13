@@ -156,8 +156,18 @@ button{
   color: black;
 }
 
-.dropDrownClick {
+#pilhvid {
   color: white;
+  margin-left: 5px;
+}
+
+.dropDrownClick {
+  display: flex;
+  align-items: center;
+}
+
+.dropDrownClick p {
+ cursor: pointer;
 }
 
 .pdf {
