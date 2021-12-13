@@ -1,15 +1,29 @@
+body {
+  background-color: #DFEAE9;
+}
+
 main h1 {
   margin-top: 0;
+
 }
 
 .historie {
   padding: 0px 100px 50px 100px;
   display: flex;
   justify-content: space-between;
+  background-color: #DFEAE9;
+  margin-top: 0;
+}
+
+.historie_overskrift {
+  background-color: #DFEAE9;
 }
 
 .lort {
   width: 60%;
+}
+
+.lort p {
 }
 
 img {
@@ -23,16 +37,17 @@ h1 {
 }
 
 
-
-
 .vmv {
   padding: 50px 100px;
-  background-color: #DFEAE9;
+  background-color: #1D3D5A;
+  color: white;
 }
 
 .vm {
   display: flex;
+  background-color: white;
   justify-content: space-between;
+  padding: 50px 100px 50px 100px;
 }
 
 .vm img {
@@ -51,11 +66,16 @@ h1 {
 }
 
 .verdier img {
-  width: 30%;
-  height: auto;
+  margin-top: -70px;
+  width: 350px;
+  height: 450px;
+  border-radius: 50%;
+  zoom: 130%;
 }
 
-
+#mere {
+  display: none;
+}
 
 .bestyrelsen {
   padding: 50px 0px;
@@ -137,6 +157,21 @@ button{
 
 .fa-chevron-down {
   cursor: pointer;
+  color: black;
+}
+
+#pilhvid {
+  color: white;
+  margin-left: 5px;
+}
+
+.dropDrownClick {
+  display: flex;
+  align-items: center;
+}
+
+.dropDrownClick p {
+ cursor: pointer;
 }
 
 .pdf {
@@ -184,10 +219,13 @@ button{
 
   .vmv {
     padding: 50px 50px;
+    background-color: #1D3D5A;
   }
 
   .vm {
     display: block;
+    background-color: white;
+    padding: 0 100px 50px 100px;
   }
 
   .verdier_tekst {

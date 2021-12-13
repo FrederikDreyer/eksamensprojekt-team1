@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/betaling.css">
     <script src="js/script.js" defer></script>
     <script src="https://kit.fontawesome.com/6404ae9aac.js" crossorigin="anonymous"></script>
+    <script src="js/tanja.js" defer></script>
   </head>
 
   <body>
@@ -109,19 +110,19 @@
 
             <div class="">
               <p class="bold_text">Kortnummer</p>
-              <input type="text" name="kortnummer" value="">
+              <input id="kort" type="text" name="kortnummer" value="">
             </div>
 
             <div class="kort_wrapper">
 
               <div class="mm">
                 <p class="bold_text">MM/ÅÅ</p>
-                <input type="text" name="mm/åå" value="">
+                <input id="dato" type="text" name="mm/åå" value="">
               </div>
 
               <div class="cvc">
                 <p class="bold_text">CVC</p>
-                <input type="text" name="cvc" value="">
+                <input id="cvc" type="text" name="cvc" value="">
               </div>
 
             </div>
@@ -132,8 +133,10 @@
 
         <p class="bold_text" id="pris">200 DKR inkl. moms</p>
 
+        <p id="error"></p>
+
         <div class="lort">
-          <button type="button" name="button" onclick="window.location.href='tilmeld_bekraftelse.html'">BETAL</button>
+          <button type="button" name="button" onclick="checkValidate()">BETAL</button>
         </div>
 
 
