@@ -165,6 +165,10 @@ button{
   align-items: center;
 }
 
+.dropDrownClick p {
+ cursor: pointer;
+}
+
 .pdf {
   text-decoration: none;
   color: black;
