@@ -62,10 +62,11 @@ h1 {
 }
 
 .verdier img {
+  margin-top: -70px;
   width: 350px;
   height: 450px;
   border-radius: 50%;
-  zoom: 150%;
+  zoom: 130%;
 }
 
 #mere {
