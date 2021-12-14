@@ -1,19 +1,12 @@
-//JS - Tanja
-//Variabler af inputs i HTML - tekstfelter (variabler defineres udfra forskellige id i HTML)
-var kort = document.getElementById('kort');
-var dato = document.getElementById('dato');
-var cvc = document.getElementById('cvc');
+let kort = document.getElementById('kort');
+let dato = document.getElementById('dato');
+let cvc = document.getElementById('cvc');
 
-//Fejlbesked - henviser til et p-tag i HTML
-var error = document.getElementById('error');
+let error = document.getElementById('error');
 
-//Arrays er defineret i form af variabler og indeholder forskellige værdier
-
-var borderColors = ["3px solid red","1px solid grey"];
+let borderColors = ["3px solid red","1px solid grey"];
 
 
-//Funktionen henviser til onClick i HTML
-//Følgende kode i funktionen eksekveres, når der trykkes på knappen
 function checkValidate() {
 
   if (kort.value.length == 0 && dato.value.length == 0 && cvc.value.length == 0) {
@@ -71,7 +64,6 @@ function checkValidate() {
 
 }
 
-//Hvis i er mindre end arrayets længde, udføres en console log. Derefter plusses med 1, og arrayet starter forfra
 for(var i = 0; i < borderColors.length; i++) {
   console.log(borderColors[i])
 }
