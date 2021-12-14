@@ -79,7 +79,7 @@ nav {
   padding: 0 20px;
 }
 
-#tilmeld_knap {
+#tilmeld_knap, #tilmeld_knap_mobil {
   background-color: #EA701B;
   color: white;
   padding-top: 10px;
