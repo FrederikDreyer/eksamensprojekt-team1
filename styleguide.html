@@ -2,8 +2,11 @@
 <html lang="da" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/styleguide.css">
+    <script src="https://kit.fontawesome.com/6404ae9aac.js" crossorigin="anonymous"></script>
+    <script type="js/script.js">
+
+    </script>
     <title>Styleguide - Odense Højskoleforening</title>
   </head>
 
@@ -112,12 +115,133 @@
       <p>&lt;button type="button" name="button"&gt;TILMELD&lt;/button&gt;</p>
       <p>&lt;button type="button" name="button" class= "se_mere"&gt;SE MERE&lt;/button&gt;</p>
       <h4>CSS</h4>
+      <p>
+        button {
+          <br>
+          border: none;
+          <br>
+          background-color: #EA701B;
+          <br>
+          color: white;
+          <br>
+          padding: 10px 20px;
+          <br>
+          font-size: 16px;
+          <br>
+          margin-top: 30px;
+          <br>
+          cursor: pointer;
+          <br>
+        }
+      </p>
+      <p>
+        .se_mere {
+          <br>
+          background-color: white;
+          <br>
+          padding: 7px 17px;
+          <br>
+          border: 3px solid #EA701B;
+          <br>
+          color: #EA701B;
+          <br>
+          margin-right: 20px;
+          <br>
+          margin-left: 0;
+        }
+      </p>
+
+      <p>
+        button:hover {
+          <br>
+          background-color: orange;
+          <br>
+          color: white;
+          <br>
+          border-color: orange;
+          <br>
+        }
+      </p>
     </section>
 
     <section class="">
       <h2>Navigation</h2>
+
+      <nav>
+
+        <div class="logo_wrapper">
+
+        <a href="index.html" class="menu_logo">
+          <img src="billeder/logo_oh.png" alt="logo" class="menu_logo">
+        </a>
+
+        <a href="index.html" class="logo_tekst">ODENSE <br> HØJSKOLEFORENING</a>
+
+        </div>
+
+        <div class="top_nav">
+
+          <a href="begivenheder_liste.html">BEGIVENHEDER</a>
+          <a href="om_os_side.html">OM OS</a>
+          <a href="kontakt.html">KONTAKT</a>
+          <a href="tilmeld_adresse.html" id="tilmeld_knap">TILMELD</a>
+
+        </div>
+
+        <i class="fas fa-bars" id="burger_menu" onclick="mobilNav()"></i>
+
+      </nav>
+
+      <p>Gør vinduet mindre for at se mobil version</p>
+
       <h3>Brug</h3>
       <h3>Kode</h3>
+      <h4>HTML</h4>
+      <p>
+        &lt;nav&gt;
+        <br>
+        <br>
+        &lt;div class="logo_wrapper"&gt;
+        <br>
+        <br>
+        &lt;a href="index.html" class="menu_logo"&gt;
+        <br>
+          &lt;img src="billeder/logo_oh.png" alt="logo" class="menu_logo"&gt;
+          <br>
+        &lt;/a&gt;
+        <br>
+
+        &lt;a href="index.html" class="logo_tekst"&gt;ODENSE &lt;br&gt; HØJSKOLEFORENING&lt;/a&gt;
+        <br>
+
+        &lt;/div&gt;
+        <br>
+        <br>
+        &lt;div class="top_nav"&gt;
+        <br>
+        <br>
+
+          &lt;a href="begivenheder_liste.html"&gt;BEGIVENHEDER&lt;/a&gt;
+          <br>
+          &lt;a href="om_os_side.html"&gt;OM OS&lt;/a&gt;
+          <br>
+          &lt;a href="kontakt.html"&gt;KONTAKT&lt;/a&gt;
+          <br>
+          &lt;a href="tilmeld_adresse.html" id="tilmeld_knap"&gt;TILMELD&lt;/a&gt;
+          <br>
+          <br>
+
+        &lt;/div&gt;
+        <br>
+        <br>
+
+        &lt;i class="fas fa-bars" id="burger_menu" onclick="mobilNav()"&gt;&lt;/i&gt;
+        <br>
+        <br>
+
+      &lt;/nav&gt;
+      </p>
+      <h4>CSS</h4>
     </section>
 
     <section class="">
