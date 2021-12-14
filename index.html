@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="da" dir="ltr">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -13,6 +13,11 @@
   </head>
   <body>
 
+    <!-- noter til kode validering:
+      w. Text run is not in Unicode Normalization Form C.
+      w. Section lacks heading
+    -->
+
     <nav>
 
       <!-- logo -->
@@ -20,7 +25,7 @@
       <div class="logo_wrapper">
 
       <a href="index.html" class="menu_logo">
-        <img src="billeder/logo_oh.png" alt="" class="menu_logo">
+        <img src="billeder/logo_oh.png" alt="logo" class="menu_logo">
       </a>
 
       <a href="index.html" class="logo_tekst">ODENSE <br> HØJSKOLEFORENING</a>
@@ -54,7 +59,7 @@
 
       <section class="foredrag">
 
-        <figure class="foredrag1" onclick="window.location.href='begivenhed.html'">
+        <figure class="foredrag1" title="pandemi" onclick="window.location.href='begivenhed.html'">
 
           <h2>Pandemier</h2>
           <p class="foredrag_tekst">Hans Jørn Kolmos - 21/01/2022</p>
@@ -63,12 +68,12 @@
 
         <div class="foredrag_wrapper">
 
-          <figure class="foredrag2" onclick="window.location.href='begivenhed.html'">
+          <figure class="foredrag2" title="natur" onclick="window.location.href='begivenhed.html'">
             <h2>Naturhelbredelse</h2>
             <p class="foredrag_tekst">Simon Høegmark - 20/03/2022</p>
           </figure>
 
-          <figure class="foredrag3" onclick="window.location.href='begivenhed.html'">
+          <figure class="foredrag3" title="klima" onclick="window.location.href='begivenhed.html'">
             <h2>Klimaet</h2>
             <p class="foredrag_tekst">Jesper Theilgaard - 13/04/2022</p>
           </figure>
@@ -77,17 +82,17 @@
 
         <div class="foredrag_wrapper2">
 
-          <figure class="foredrag4" onclick="window.location.href='begivenhed.html'">
+          <figure class="foredrag4" title="Cannabis" onclick="window.location.href='begivenhed.html'">
             <h2>Cannabis</h2>
             <p class="foredrag_tekst">Mads Petersen - 04/05/2022</p>
           </figure>
 
-          <figure class="foredrag5" onclick="window.location.href='begivenhed.html'">
+          <figure class="foredrag5" title="dansk humor" onclick="window.location.href='begivenhed.html'">
             <h2>Humor</h2>
             <p class="foredrag_tekst">Jacob Wendt - 07/05/2022</p>
           </figure>
 
-          <figure class="foredrag6" onclick="window.location.href='begivenhed.html'">
+          <figure class="foredrag6" title="grundtvig" onclick="window.location.href='begivenhed.html'">
             <h2>Grundtvig</h2>
             <p class="foredrag_tekst">Aage Augustinus - 07/06/2022</p>
           </figure>
@@ -114,13 +119,16 @@
         Lyder det som noget for dig, kan du nemt og enkelt tilmelde dig som medlem af Odense Højskoleforening her på siden. Du kan læse meget mere om Højskoleforeningen og blive klogere på, hvad lige netop du kan få ud af dit medlemskab. Bliv medlem allerede nu og deltag i et lærerigt foreningsliv, spændende begivenheder og mød ikke mindst et netværk af andre medlemmer på lige fod.
         </p>
 
-        <button class= "se_mere" type="button" name="SE MERE" onclick="window.location.href='om_os_side.html'">
-          SE MERE
-        </button>
+        <div class="knapper">
+          <button class= "se_mere" type="button" name="SE MERE" onclick="window.location.href='om_os_side.html'">
+            SE MERE
+          </button>
 
-        <button type="button" name="TILMELD" onclick="window.location.href='tilmeld_adresse.html'">
-          TILMELD
-        </button>
+          <button type="button" name="TILMELD" onclick="window.location.href='tilmeld_adresse.html'">
+            TILMELD
+          </button>
+        </div>
+
 
 
         </div>
@@ -149,7 +157,11 @@
         <section class="footer_menu2">
 
           <p>Om Odense Højskoleforening</p>
-          <p id="om_os_footer">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          <p id="om_os_footer">Odense Højskoleforening afholder foredrag og arrangementer. Find spændende arrangementer og bliv en del af en højskole og et fællesskab med plads til alle.
+          <br>
+          <br>
+          Ønsker du at blive medlem af Odense Højskoleforening? Tilmeld dig som medlem og bliv en del af en spændende forening og et godt fællesskab. Nemt og billigt.
+
           </p>
 
 
