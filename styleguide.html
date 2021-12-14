@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="css/styleguide.css">
     <title>Styleguide - Odense Højskoleforening</title>
   </head>
-  
+
   <body>
 
     <section class="farver">
@@ -41,14 +41,77 @@
 
     <section class="">
       <h2>Formular</h2>
+
+
+        <div class="form_wrapper">
+
+          <form class="" action="index.html" method="post">
+          <p class="bold_text">Navn*</p>
+          <input type="text" name="navn" value="" placeholder="Dit fornavn..">
+          <p class="bold_text">Email*</p>
+          <input type="email" name="email" value="" placeholder="Din email..">
+          <p class="bold_text">Besked*</p>
+          <textarea name="besked" rows="8" cols="80" placeholder="Besked.."></textarea>
+          </form>
+
+          <button type="button" name="button" onclick="window.location.href='kontakt_bekraftelse.html'">SEND</button>
+
+        </div>
+
       <h3>Brug</h3>
+      <h4>HTML</h4>
+      <p>
+        &lt;input type="text" name="navn" value="" placeholder="Dit fornavn.."&gt;
+      </p>
+      <p>
+        &lt;textarea name="besked" rows="8" cols="80" placeholder="Besked.."&gt;&lt;/textarea&gt;
+      </p>
+      <h4>CSS</h4>
+      <p>
+        input {
+          <br>
+          width: 100%;
+          <br>
+          padding: 12px 20px;
+          <br>
+          border-radius: 4px;
+          <br>
+          border: 1px solid grey;
+          <br>
+        }
+      </p>
+      <p>
+        textarea {
+          <br>
+          width: 100%;
+          <br>
+          height: 150px;
+          <br>
+          resize: none;
+          <br>
+          padding: 12px 20px;
+          <br>
+          font-size: 16px;
+          <br>
+          font-family: arial;
+          <br>
+          border-radius: 4px;
+          <br>
+        }
+      </p>
       <h3>Kode</h3>
     </section>
 
     <section class="">
       <h2>Knapper</h2>
+      <button type="button" name="button">TILMELD</button>
+      <button type="button" name="button" class= "se_mere">SE MERE</button>
       <h3>Brug</h3>
       <h3>Kode</h3>
+      <h4>HTML</h4>
+      <p>&lt;button type="button" name="button"&gt;TILMELD&lt;/button&gt;</p>
+      <p>&lt;button type="button" name="button" class= "se_mere"&gt;SE MERE&lt;/button&gt;</p>
+      <h4>CSS</h4>
     </section>
 
     <section class="">
