@@ -33,6 +33,10 @@ body {
   padding-left: 100px;
 }
 
+.fa-bars {
+  color: white;
+}
+
 p {
   width: 50%;
 }
@@ -285,6 +289,14 @@ font-weight: normal;
     padding-right: 20px;
   }
 
+  body {
+    margin: 50px;
+  }
+
+  .style_h {
+    padding-left: 50px;
+  }
+
 }
 
 @media screen and (max-width: 450px) {
@@ -532,6 +544,12 @@ img {
   #mobil_nav_style {
     text-align: center;
     border-bottom: 1px solid black;
+    position: fixed;
+    background-color: white;
+    margin-left: -100px;
+    margin-top: -10px;
+    width: 100%;
+    display: none;
   }
 
   #mobil_nav_style a {
@@ -543,5 +561,11 @@ img {
 
   .nav_a_billeder {
     padding-right: 0;
+  }
+
+  .fa-bars {
+    color: black;
+    padding-right: 100px;
+    font-size: 25px;
   }
 }
