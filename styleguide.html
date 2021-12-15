@@ -12,7 +12,22 @@
 
   <body>
 
-    <section class="farver">
+    <nav class="style_nav">
+      <h1 class="style_h">Odense <br> Højskoleforening <br> styleguide</h1>
+      <a href="#farver">FARVER</a>
+      <a href="#typografi">TYPOGRAFI</a>
+      <a href="#formular">FORMULAR</a>
+      <a href="#knapper">KNAPPER</a>
+      <a href="#navigation">NAVIGATION</a>
+      <a href="#cards">CARDS</a>
+      <a href="#progessbar">PROGESS BARS</a>
+      <a href="#footer">FOOTER</a>
+      <a href="#billeder" class="nav_a_billeder">BILLEDER</a>
+    </nav>
+
+    <p>Gør vinduet mindre for at se mobil version</p>
+
+    <section class="farver" id="farver">
       <h2>Farver</h2>
       <div class="farve1">
         <p>hex: #1D3D5A</p>
@@ -36,7 +51,7 @@
       <p>Anvendes til tekst samt outline rundt om hvid tekst.</p>
     </section>
 
-    <section class="">
+    <section id="typografi">
       <h2>Typografi</h2>
       <h1>Heading 1</h1>
       <p>60px - Arial</p>
@@ -54,7 +69,7 @@
       <p>Anvendes som brødtekst.</p>
     </section>
 
-    <section class="">
+    <section id="formular">>
       <h2>Formular</h2>
 
 
@@ -75,6 +90,7 @@
 
       <b><p>Anvendelse</p></b>
       <p>Anvendes som kontaktformular samt som tilmelding som medlem og betaling af kontingent.</p>
+      <h3>Kode</h3>
       <h4>HTML</h4>
       <p>
         &lt;input type="text" name="navn" value="" placeholder="Dit fornavn.."&gt;
@@ -115,10 +131,9 @@
           <br>
         }
       </p>
-      <h3>Kode</h3>
     </section>
 
-    <section class="">
+    <section id="knapper">
       <h2>Knapper</h2>
       <button type="button" name="button">TILMELD</button>
       <button type="button" name="button" class= "se_mere">SE MERE</button>
@@ -178,7 +193,7 @@
       </p>
     </section>
 
-    <section class="">
+    <section id="navigation">
       <h2>Navigation</h2>
 
       <nav>
@@ -206,7 +221,7 @@
 
       </nav>
 
-      <p>Gør vinduet mindre for at se mobil version</p>
+
 
       <b><p>Anvendelse</p></b>
       <p>Anvendes på alle undersider i toppen af siden. Derudover er den fixed, hvilket sikrer, at den følger med, når man scroller på siden.</p>
@@ -257,34 +272,901 @@
       &lt;/nav&gt;
       </p>
       <h4>CSS</h4>
+
+      <p>
+        nav {
+          <br>
+          display: flex;
+          <br>
+          align-items: center;
+          <br>
+          overflow: hidden;
+          <br>
+          width: 100%;
+          <br>
+          overflow: hidden;
+          <br>
+          top: 0;
+          <br>
+          background-color: white;
+          <br>
+          z-index: 1;
+          <br>
+          border-bottom: 1px solid grey;
+          <br>
+        }
+        <br>
+        <br>
+        /* logo */
+        <br>
+        <br>
+        .logo_wrapper {
+          <br>
+          display: flex;
+          <br>
+          align-items: center;
+          <br>
+          padding-left: 100px;
+          <br>
+        }
+        <br>
+        <br>
+        .menu_logo {
+          <br>
+          width: auto;
+          <br>
+          height: 75px;
+          <br>
+        }
+        <br>
+        <br>
+        .logo_tekst {
+          <br>
+          text-decoration: none;
+          <br>
+          color: black;
+          <br>
+        }
+        <br>
+        <br>
+        /* menu */
+        <br>
+        <br>
+        .top_nav {
+          <br>
+          margin-left: auto;
+          <br>
+          padding-right: 100px;
+          <br>
+        }
+        <br>
+        <br>
+        .top_nav a {
+          <br>
+          text-decoration: none;
+          <br>
+          color: black;
+          <br>
+          padding: 0 20px;
+          <br>
+        }
+        <br>
+        <br>
+        #tilmeld_knap, #tilmeld_knap_mobil {
+          <br>
+          background-color: #EA701B;
+          <br>
+          color: white;
+          <br>
+          padding-top: 10px;
+          <br>
+          padding-bottom: 10px;
+          <br>
+        }
+        <br>
+        <br>
+        #aktiv_side {
+          <br>
+          text-decoration: 3px underline #EA701B;
+          <br>
+        }
+      </p>
+      <p>Mobil CSS</p>
+      <p>
+        @media screen and (max-width: 1000px) {
+          <br>
+          <br>
+          .top_nav {
+            <br>
+            display: none;
+            <br>
+          }
+          <br>
+          <br>
+          #burger_menu {
+            <br>
+            display: block;
+            <br>
+            margin-left: auto;
+            <br>
+            padding-right: 100px;
+            <br>
+            font-size: 36px;
+            <br>
+            cursor: pointer;
+            <br>
+          }
+          <br>
+          <br>
+          main {
+            <br>
+            position: relative;
+            <br>
+          }
+          <br>
+          <br>
+          #nav_mobil {
+            <br>
+            display: none;
+            <br>
+            position: fixed;
+            <br>
+            margin-top: -30px;
+            <br>
+            right: 0;
+            <br>
+            border-bottom: 1px solid black;
+            <br>
+            border-top: 1px solid black;
+            <br>
+            padding: 20px 0px 36px 0px;
+            <br>
+            background-color: white;
+            <br>
+            width: 100%;
+            <br>
+            text-align: center;
+            <br>
+            z-index: 1;
+            <br>
+          }
+          <br>
+          <br>
+          #nav_mobil a {
+            <br>
+            display: block;
+            <br>
+            text-decoration: none;
+            <br>
+            padding: 20px 20px;
+            <br>
+            color: black;
+            <br>
+            font-weight: bold;
+            <br>
+            width: 150px;
+            <br>
+            margin-left: auto;
+            <br>
+            margin-right: auto;
+            <br>
+          }
+      </p>
     </section>
 
-    <section class="">
+    <section id="cards">
+
       <h2>Cards</h2>
+
+      <figure class="foredrag1" title="pandemi">
+
+        <h2>Pandemier</h2>
+
+      </figure>
+
+      <div class="alle samfund sundhed internationalt">
+      <figure class="begivenhed">
+
+        <div class="begivenhed1_img" title="pandemi">
+
+        </div>
+
+        <div class="begivenhed1_text">
+
+          <p class="bold_text">Pandemier - Hans Jørn Kolmos</p>
+          <p>Vi har alle stiftet bekendtskab med en pandemi, da corona sendte verden til tælling. Men hvordan opstår en epidemi? Hvordan udvikler det sig til en pandemi? Og hvordan håndterer vi den, når vi står midt i den?</p>
+          <br>
+          <p class="bold_text">Tid</p>
+          <p>Fredag d. 21/01/2022 kl. 20:00</p>
+          <br>
+          <p class="bold_text">Sted</p>
+          <p>5230 Odense M <button type="button" name="button" class="se_mere">SE MERE</button></p>
+        </div>
+
+      </figure>
+      </div>
+
       <b><p>Anvendelse</p></b>
       <p>Anvendes på forside for at få et visuelt overblik over kommende arrangementer. Bruges desuden også på begivenhedssiden for ligeledes at få et overblik over de enkelte arrangementer samt information derom.</p>
       <h3>Kode</h3>
+      <h4>HTML</h4>
+      <p>Øverste card</p>
+      <p>
+        &lt;figure class="foredrag1" title="pandemi"&gt;
+        <br>
+        <br>
+        &lt;h2&gt;Pandemier&lt;/h2&gt;
+        <br>
+        <br>
+      &lt;/figure&gt;
+      </p>
+      <p>Nederste card</p>
+      <p>
+        &lt;div class="alle samfund sundhed internationalt"&gt;
+        <br>
+      &lt;figure class="begivenhed"&gt;
+      <br>
+      <br>
+        &lt;div class="begivenhed1_img" title="pandemi"&gt;
+        <br>
+        <br>
+        &lt;/div&gt;
+        <br>
+        <br>
+        &lt;div class="begivenhed1_text"&gt;
+        <br>
+        <br>
+          &lt;p class="bold_text"&gt;Pandemier - Hans Jørn Kolmos&lt;/p&gt;
+          <br>
+          &lt;p&gt;Vi har alle stiftet bekendtskab med en pandemi, da corona sendte verden til tælling. Men hvordan opstår en epidemi? <br>Hvordan udvikler det sig til en pandemi? Og hvordan håndterer vi den, når vi står midt i den?&lt;/p&gt;
+          <br>
+          &lt;br&gt;
+          <br>
+          &lt;p class="bold_text"&gt;Tid&lt;/p&gt;
+          <br>
+          &lt;p&gt;Fredag d. 21/01/2022 kl. 20:00&lt;/p&gt;
+          <br>
+          &lt;br&gt;
+          <br>
+          &lt;p class="bold_text"&gt;Sted&lt;/p&gt;
+          <br>
+          &lt;p&gt;5230 Odense M &lt;button type="button" name="button" class="se_mere"&gt;SE MERE&lt;/button&gt;&lt;/p&gt;
+          <br>
+          <br>
+        &lt;/div&gt;
+        <br>
+        <br>
+
+      &lt;/figure&gt;
+      <br>
+      &lt;/div&gt;
+      </p>
+
+      <h4>CSS</h4>
+      <p>Øverste card</p>
+      <p>
+        .foredrag1 {
+          <br>
+          background-image: url(../billeder/pandemier.jpg);
+          <br>
+          height: 300px;
+          <br>
+          width: 100%;
+          <br>
+          background-position: center;
+          <br>
+          background-repeat: no-repeat;
+          <br>
+          background-size: cover;
+          <br>
+          margin: 20px 0;
+          <br>
+          transition: transform .2s;
+          <br>
+        }
+        <br>
+        <br>
+        .foredrag1:hover {
+          <br>
+          transform: scale(0.9);
+          <br>
+          cursor: pointer;
+          <br>
+        }
+        <br>
+        <br>
+
+        .foredrag1 h2 {
+          <br>
+          margin: 0;
+          <br>
+          padding-top: 190px;
+          <br>
+          padding-left: 20px;
+          <br>
+          font-size: 60px;
+          <br>
+          color: white;
+          <br>
+          border-color: black;
+          <br>
+          text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+          <br>
+        }
+      </p>
+
+      <p>Nederste card</p>
+
+      <p>
+        .begivenhed1_img {
+          <br>
+          width: 30%;
+          <br>
+          height: 300px;
+          <br>
+          background-position: center;
+          <br>
+          background-repeat: no-repeat;
+          <br>
+          background-size: cover;
+          <br>
+        }
+        <br>
+        <br>
+        .begivenhed1_img {
+          <br>
+          background-image: url(../billeder/pandemier.jpg);
+          <br>
+        }
+        <br>
+        <br>
+
+        figure {
+          <br>
+          margin-left: 0;
+          <br>
+          margin-right: 0;
+          <br>
+          border: 1px solid grey;
+          <br>
+          display: flex;
+          <br>
+          transition: transform .2s;
+          <br>
+        }
+        <br>
+        <br>
+        figure:hover {
+          <br>
+          transform: scale(0.9);
+          <br>
+          cursor: pointer;
+          <br>
+        }
+        <br>
+        <br>
+        .begivenhed1_text {
+          <br>
+          margin: 20px;
+          <br>
+          margin-bottom: 0;
+          <br>
+          width: 70%
+          <br>
+        }
+        <br>
+        <br>
+
+        .begivenhed1_text p {
+          <br>
+          margin: 5px 0;
+          <br>
+        }
+      </p>
     </section>
 
-    <section class="">
+    <section id="progessbar">
+
       <h2>Progess bars</h2>
+
+      <section class="fremskridts_bar">
+
+      <i class="fas fa-arrow-left" onclick="window.location.href='tilmeld_adresse.html'"></i>
+
+      <div class="fremskidt" onclick="window.location.href='tilmeld_adresse.html'">
+        <figure class="cirkle1"></figure>
+        <p>Adresse</p>
+      </div>
+
+      <div class="fremskidt" onclick="window.location.href='tilmeld_betaling.html'">
+        <figure class="cirkle2"></figure>
+        <p>Betaling</p>
+      </div>
+
+      <div class="fremskidt" onclick="window.location.href='tilmeld_bekraftelse.html'">
+        <figure class="cirkle3"></figure>
+        <p>Bekræft</p>
+      </div>
+
+      <i class="fas fa-arrow-right" onclick="window.location.href='tilmeld_bekraftelse.html'"></i>
+
+      </section>
+
       <b><p>Anvendelse</p></b>
       <p>Anvendes på tilmeldingsside og betalingsside, for at vise, hvor langt brugeren er i processen at tilmelde sig som medlem.</p>
       <h3>Kode</h3>
+      <h4>HTML</h4>
+      <p>
+        &lt;section class="fremskridts_bar"&gt;
+        <br>
+        <br>
+
+      &lt;i class="fas fa-arrow-left" onclick="window.location.href='tilmeld_adresse.html'"&gt;&lt;/i&gt;
+      <br>
+      <br>
+
+      &lt;div class="fremskidt" onclick="window.location.href='tilmeld_adresse.html'"&gt;
+      <br>
+      <br>
+        &lt;figure class="cirkle1"&gt;&lt;/figure&gt;
+        <br>
+        &lt;p&gt;Adresse&lt;/p&gt;
+        <br>
+      &lt;/div&gt;
+      <br>
+      <br>
+
+      &lt;div class="fremskidt" onclick="window.location.href='tilmeld_betaling.html'"&gt;
+      <br>
+        &lt;figure class="cirkle2"&gt;&lt;/figure&gt;
+        <br>
+        &lt;p&gt;Betaling&lt;/p&gt;
+        <br>
+      &lt;/div&gt;
+      <br>
+      <br>
+
+      &lt;div class="fremskidt" onclick="window.location.href='tilmeld_bekraftelse.html'"&gt;
+      <br>
+        &lt;figure class="cirkle3"&gt;&lt;/figure&gt;
+        <br>
+        &lt;p&gt;Bekræft&lt;/p&gt;
+        <br>
+      &lt;/div&gt;
+      <br>
+      <br>
+
+      &lt;i class="fas fa-arrow-right" onclick="window.location.href='tilmeld_bekraftelse.html'"&gt;&lt;/i&gt;
+      <br>
+      <br>
+
+      &lt;/section&gt;
+      </p>
+      <h4>CSS</h4>
+      <p>
+        .cirkle1, .cirkle2  {
+          <br>
+          background-color: #00AF28;
+          <br>
+          border: 2px solid #00AF28;
+          <br>
+          border-radius: 50%;
+          <br>
+          width: 25px;
+          <br>
+          height: 25px;
+          <br>
+          margin: 0 40px;
+          <br>
+        }
+        <br>
+        <br>
+
+        .cirkle3 {
+          <br>
+          background-color: white;
+          <br>
+          border: 2px solid black;
+          <br>
+          border-radius: 50%;
+          <br>
+          width: 25px;
+          <br>
+          height: 25px;
+          <br>
+          margin: 0 40px;
+          <br>
+        }
+        <br>
+        <br>
+
+        .fremskridts_bar {
+          <br>
+          display: flex;
+          <br>
+          justify-content: center;
+          <br>
+          align-items: center;
+          <br>
+          margin-bottom: 20px;
+          <br>
+        }
+        <br>
+        <br>
+
+        .fremskidt {
+          <br>
+          display: flex;
+          <br>
+          flex-direction: column;
+          <br>
+          align-items: center;
+          <br>
+          cursor: pointer;
+          <br>
+        }
+        <br>
+        <br>
+
+        .fremskidt p {
+          <br>
+          margin: 0;
+          <br>
+        }
+        <br>
+        <br>
+
+        .fa-arrow-right, .fa-arrow-left {
+          <br>
+          font-size: 25px;
+          <br>
+          cursor: pointer;
+          <br>
+        }
+      </p>
     </section>
 
-    <section class="">
+    <section id="footer">
       <h2>Footer</h2>
+
+      <footer>
+
+        <div class="footer_menu_wrapper">
+
+          <section class="footer_menu1">
+
+            <p>Menu</p>
+            <a href="begivenheder_liste.html">Begivenheder</a>
+            <br>
+            <a href="om_os_side.html">Om os</a>
+            <br>
+            <a href="kontakt.html">Kontakt</a>
+            <br>
+            <a href="tilmeld_adresse.html">Tilmelding</a>
+
+          </section>
+
+          <section class="footer_menu2">
+
+            <p>Om Odense Højskoleforening</p>
+            <p id="om_os_footer">Odense Højskoleforening afholder foredrag og arrangementer. Find spændende arrangementer og bliv en del af en højskole og et fællesskab med plads til alle.
+            <br>
+            <br>
+            Ønsker du at blive medlem af Odense Højskoleforening? Tilmeld dig som medlem og bliv en del af en spændende forening og et godt fællesskab. Nemt og billigt.
+
+            </p>
+
+
+          </section>
+
+          <section class="footer_menu3">
+
+            <p>Kontakt</p>
+            <a href="">Erna Overgaard</a>
+            <a href="tel:+4561605407">61605407</a>
+            <a href="mailto:Kasserer@oh-odense.dk">Kasserer@oh-odense.dk</a>
+            <br>
+            <a href="">Jens Rahbek Nørgaard</a>
+            <a href="tel:+4524821453">24821453</a>
+            <a href="mailto:formand@oh-odense.dk">formand@oh-odense.dk</a>
+
+
+          </section>
+
+        </div>
+
+        <section class="footer_logo_wrapper">
+
+          <img src="billeder/logo_oh.png" alt="odense højskoleforening logo" class="footer_logo">
+
+          <a href="index.html">ODENSE <br> HØJSKOLEFORENING</a>
+
+        </section>
+
+      </footer>
+
       <b><p>Anvendelse</p></b>
       <p>Anvendes i bunden af alle undersider for hurtigt at få et overblik over menupunkter, kontaktinfo samt en kort tekst om foreningen.</p>
       <h3>Kode</h3>
+      <h4>HTML</h4>
+      <p>
+        &lt;footer&gt;
+        <br>
+        <br>
+
+      &lt;div class="footer_menu_wrapper"&gt;
+      <br>
+      <br>
+
+        &lt;section class="footer_menu1"&gt;
+        <br>
+        <br>
+
+          &lt;p&gt;Menu&lt;/p&gt;
+          <br>
+          &lt;a href="begivenheder_liste.html"&gt;Begivenheder&lt;/a&gt;
+          <br>
+          &lt;br&gt;
+          <br>
+          &lt;a href="om_os_side.html"&gt;Om os&lt;/a&gt;
+          <br>
+          &lt;br&gt;
+          <br>
+          &lt;a href="kontakt.html"&gt;Kontakt&lt;/a&gt;
+          <br>
+          &lt;br&gt;
+          <br>
+          &lt;a href="tilmeld_adresse.html"&gt;Tilmelding&lt;/a&gt;
+          <br>
+          <br>
+        &lt;/section&gt;
+        <br>
+        <br>
+
+        &lt;section class="footer_menu2"&gt;
+        <br>
+        <br>
+
+          &lt;p&gt;Om Odense Højskoleforening&lt;/p&gt;
+          <br>
+          &lt;p id="om_os_footer"&gt;Odense Højskoleforening afholder foredrag og arrangementer. Find spændende arrangementer og bliv en del af en højskole og et fællesskab med plads til alle.
+          <br>
+          &lt;br&gt;
+          <br>
+          &lt;br&gt;
+          <br>
+          Ønsker du at blive medlem af Odense Højskoleforening? Tilmeld dig som medlem og bliv en del af en spændende forening og et godt fællesskab. Nemt og billigt.
+          <br>
+          <br>
+
+          &lt;/p&gt;
+          <br>
+          <br>
+
+
+        &lt;/section&gt;
+        <br>
+        <br>
+
+        &lt;section class="footer_menu3"&gt;
+        <br>
+        <br>
+
+          &lt;p&gt;Kontakt&lt;/p&gt;
+          <br>
+          &lt;a href=""&gt;Erna Overgaard&lt;/a&gt;
+          <br>
+          &lt;a href="tel:+4561605407"&gt;61605407&lt;/a&gt;
+          <br>
+          &lt;a href="mailto:Kasserer@oh-odense.dk"&gt;Kasserer@oh-odense.dk&lt;/a&gt;
+          <br>
+          &lt;br&gt;
+          <br>
+          &lt;a href=""&gt;Jens Rahbek Nørgaard&lt;/a&gt;
+          <br>
+          &lt;a href="tel:+4524821453"&gt;24821453&lt;/a&gt;
+          <br>
+          &lt;a href="mailto:formand@oh-odense.dk"&gt;formand@oh-odense.dk&lt;/a&gt;
+          <br>
+          <br>
+
+
+        &lt;/section&gt;
+        <br>
+        <br>
+
+      &lt;/div&gt;
+      <br>
+      <br>
+
+      &lt;section class="footer_logo_wrapper"&gt;
+      <br>
+      <br>
+
+        &lt;img src="billeder/logo_oh.png" alt="odense højskoleforening logo" class="footer_logo"&gt;
+        <br>
+        <br>
+
+        &lt;a href="index.html"&gt;ODENSE &lt;br&gt; HØJSKOLEFORENING&lt;/a&gt;
+        <br>
+        <br>
+
+      &lt;/section&gt;
+      <br>
+      <br>
+
+    &lt;/footer&gt;
+      </p>
+      <h4>CSS</h4>
+      <p>
+
+        footer {
+          <br>
+          background-color: #1D3D5A;
+          <br>
+          padding: 20px 100px;
+          <br>
+        }
+        <br>
+        .footer_menu_wrapper section p {
+          <br>
+          color: white;
+          <br>
+          font-weight: bold;
+          <br>
+        }
+        <br>
+        .footer_menu_wrapper section a {
+          <br>
+          display: block;
+          <br>
+          text-decoration: none;
+          <br>
+          color: white;
+          <br>
+          padding: 4px 0;
+          <br>
+        }
+        <br>
+        <br>
+
+        .footer_menu_wrapper {
+          <br>
+          display: flex;
+          <br>
+          justify-content: space-between;
+          <br>
+        }
+        <br>
+        <br>
+
+        .footer_logo {
+          <br>
+          width: auto;
+          <br>
+          height: 75px;
+          <br>
+        }
+        <br>
+        <br>
+
+        .footer_logo_wrapper {
+          <br>
+          display: flex;
+          <br>
+          align-items: center;
+          <br>
+          justify-content: center;
+          <br>
+          padding-top: 20px;
+          <br>
+        }
+        <br>
+        <br>
+        .footer_logo_wrapper a {
+          <br>
+          color: white;
+          <br>
+          text-decoration: none;
+          <br>
+        }
+        <br>
+<br>
+        .footer_menu1 {
+          <br>
+          width: 100%;
+          <br>
+        }
+        <br>
+        <br>
+
+        .footer_menu2 {
+          <br>
+          width: 100%;
+          <br>
+        }
+        <br>
+        <br>
+
+        .footer_menu3 {
+          <br>
+          width: 100%;
+          <br>
+          text-align: right;
+          <br>
+        }
+        <br>
+        <br>
+
+        #om_os_footer {
+          <br>
+        font-weight: normal;
+        <br>
+        }
+        <br>
+        <br>
+
+        .bold_text {
+          <br>
+          font-weight: bold;
+          <br>
+        }
+
+      </p>
     </section>
 
-    <section class="">
+    <section id="billeder">
       <h2>Billeder</h2>
+
+      <div class="begivenhed1_img" title="pandemi">
+
+      </div>
+
+      <img src="billeder/oh_skjold.png" alt="Odense Højskoleforening skjold">
+
       <b><p>Anvendelse</p></b>
       <p>Anvendes til at skabe noget visuelt på hjemmesiden samt for visuelt at beskrive de forskellige foredrag.</p>
       <h3>Kode</h3>
+      <h4>HTML</h4>
+      <p>
+        &lt;div class="begivenhed1_img" title="pandemi"&gt;
+        <br>
+        <br>
+      &lt;/div&gt;
+      </p>
+      <p>
+        &lt;img src="billeder/oh_skjold.png" alt="Odense Højskoleforening skjold"&gt;
+      </p>
+      <h4>CSS</h4>
+      <p>
+        .begivenhed1_img {
+          <br>
+          background-image: url(../billeder/pandemier.jpg);
+          <br>
+          width: 30%;
+          <br>
+          height: 300px;
+          <br>
+          background-position: center;
+          <br>
+          background-repeat: no-repeat;
+          <br>
+          background-size: cover;
+          <br>
+        }
+<br>
+<br>
+<br>
+
+        img {
+          <br>
+          width: 30%;
+          <br>
+          height: auto;
+          <br>
+        }
+      </p>
+
     </section>
 
   </body>
