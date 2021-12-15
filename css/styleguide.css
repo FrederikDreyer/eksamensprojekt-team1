@@ -33,6 +33,14 @@ body {
   padding-left: 100px;
 }
 
+p {
+  width: 50%;
+}
+
+h2 {
+  margin-top: 50px;
+}
+
 button {
   border: none;
   background-color: #EA701B;
@@ -511,4 +519,29 @@ figure:hover {
 img {
   width: 30%;
   height: auto;
+}
+
+
+
+
+@media screen and (max-width: 1300px) {
+  .style_nav a {
+    display: none;
+  }
+
+  #mobil_nav_style {
+    text-align: center;
+    border-bottom: 1px solid black;
+  }
+
+  #mobil_nav_style a {
+    display: block;
+    margin: 10px;
+    text-decoration: none;
+    color: black;
+  }
+
+  .nav_a_billeder {
+    padding-right: 0;
+  }
 }
