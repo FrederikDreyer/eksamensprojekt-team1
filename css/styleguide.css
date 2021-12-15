@@ -37,6 +37,10 @@ body {
   color: white;
 }
 
+#mobil_nav_style {
+  display: none;
+}
+
 p {
   width: 50%;
 }
